@@ -9,11 +9,11 @@ import 'vue-flash-message/dist/vue-flash-message.min.css'
 
 Vue.use(VueFlashMessage, {
   messageOptions: {
-    timeout: 6000
+    timeout: 4000
   }
 })
 
-Vue.config.productionTip = false
+Vue.config.productionTip = true
 
 new Vue({
   router,
